@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Models", "Test_Models\Test_Models.csproj", "{28304B6B-76F7-4FF2-9003-AB91D35A21CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Logic", "Test_Logic\Test_Logic.csproj", "{6E06EE75-3770-4CD4-92D3-1ABB78F2CD63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_API", "Test_API\Test_API.csproj", "{A1974246-30DB-4267-871D-8E8F6CF65BF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28304B6B-76F7-4FF2-9003-AB91D35A21CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28304B6B-76F7-4FF2-9003-AB91D35A21CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28304B6B-76F7-4FF2-9003-AB91D35A21CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28304B6B-76F7-4FF2-9003-AB91D35A21CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E06EE75-3770-4CD4-92D3-1ABB78F2CD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E06EE75-3770-4CD4-92D3-1ABB78F2CD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E06EE75-3770-4CD4-92D3-1ABB78F2CD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E06EE75-3770-4CD4-92D3-1ABB78F2CD63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1974246-30DB-4267-871D-8E8F6CF65BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1974246-30DB-4267-871D-8E8F6CF65BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1974246-30DB-4267-871D-8E8F6CF65BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1974246-30DB-4267-871D-8E8F6CF65BF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
